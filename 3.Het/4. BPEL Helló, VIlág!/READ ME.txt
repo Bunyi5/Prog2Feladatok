@@ -1,0 +1,10 @@
+Needed:
+-Eclipse 2018-12
+	-BPEL Commons
+	-BPEL Runtime Adapter for Apache ODE 1.3
+	-BPEL Visual Desginer
+	-Axis2 Tools
+	
+-Apache Tomcat + ode
+
+https://youtu.be/eawsm8fb3iY

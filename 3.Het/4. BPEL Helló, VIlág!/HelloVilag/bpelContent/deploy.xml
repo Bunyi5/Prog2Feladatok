@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy xmlns="http://www.apache.org/ode/schemas/dd/2007/03" xmlns:hellovilag.localhost="http://hellovilag.localhost">
+  <process name="hellovilag.localhost:HelloVilag">
+    <active>true</active>
+    <retired>false</retired>
+    <process-events generate="all"/>
+    <provide partnerLink="client">
+      <service name="hellovilag.localhost:HelloVilagService" port="HelloVilagPort"/>
+    </provide>
+  </process>
+</deploy>
